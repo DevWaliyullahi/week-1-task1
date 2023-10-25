@@ -1,0 +1,78 @@
+*, body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../star.wars.collection/swapi\ background.webp");
+  background-position: center;
+  background-size: cover;
+  font-family: Georgia, serif;
+  color: gold;
+}
+
+h1 {
+  font-size: 2.5rem; /* Responsive font size */
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center; /* Centered text */
+  margin: 20px 0; /* Improved spacing */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Improved spacing */
+  align-items: center;
+  background-color: teal;
+  padding: 1rem 2rem; /* Responsive padding */
+}
+
+.nav-links {
+  list-style: none; /* Remove default list styles */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-links li {
+  margin-right: 20px; /* Spacing between navigation links */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 3px;
+  padding: 10px 15px; /* Slightly adjusted padding for links */
+}
+
+.heroes1{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  flex-wrap: wrap; /* Wrap hero elements for responsiveness */
+  margin: 20px 0; /* Improved spacing */
+}
+
+#heroes2{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+/* Define other hero classes here, using the common styles */
+
+p {
+  width: 200px; /* Responsive width */
+  height: 120px;
+  padding: 5px 50px; /* Adjusted padding */
+  border-radius: 5px;
+  color: rgb(232, 226, 226);
+  justify-content: center;
+  text-align: center; /* Center text */
+  margin: 10px 0; /* Add spacing between paragraphs */
+}
